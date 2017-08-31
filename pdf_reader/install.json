@@ -1,6 +1,6 @@
 {
   "allowOnDemand": true,
-  "displayName": "PDF Reader",
+  "displayName": "pdf Reader",
   "languageVersion": "2.7",
   "listDelimiter": "|",
   "note": "Playbook app to read a PDF.",
@@ -10,7 +10,7 @@
     "playbookDataType": [
       "Binary"
     ],
-    "required": true,
+    "required": true
   }],
   "playbook": {
     "outputVariables": [{

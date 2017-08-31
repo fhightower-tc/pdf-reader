@@ -63,3 +63,4 @@ target/
 
 # TcEx package
 *.tcx
+pdf_reader*.zip
