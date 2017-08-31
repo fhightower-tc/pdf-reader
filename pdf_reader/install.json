@@ -1,0 +1,28 @@
+{
+  "allowOnDemand": true,
+  "displayName": "PDF Reader",
+  "languageVersion": "2.7",
+  "listDelimiter": "|",
+  "note": "Playbook app to read a PDF.",
+  "params": [{
+    "label": "PDF",
+    "name": "pdf_content",
+    "playbookDataType": [
+      "Binary"
+    ],
+    "required": true,
+  }],
+  "playbook": {
+    "outputVariables": [{
+      "name": "pdf.reader.text",
+      "type": "String"
+    }], 
+    "retry": {},
+    "type": "Client"
+  },
+  "programLanguage": "python",
+  "programMain": "pdf_reader",
+  "programVersion": "0.1.0",
+  "repeatingMinutes": [],
+  "runtimeLevel": "Playbook"
+}
