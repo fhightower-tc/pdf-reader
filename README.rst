@@ -1,8 +1,8 @@
 ***************************************
-Pdf Reader
+PDF Reader
 ***************************************
 
-Playbook app to read a PDF.
+ThreatConnect Playbook app to read a PDF.
 
 Usage
 ========
