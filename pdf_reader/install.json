@@ -10,7 +10,8 @@
     "playbookDataType": [
       "Binary"
     ],
-    "required": true
+    "required": true,
+    "type": "String"
   }],
   "playbook": {
     "outputVariables": [{
