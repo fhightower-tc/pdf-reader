@@ -10,10 +10,6 @@ if not version:
 setup(
     author='Floyd Hightower',
     description='Playbook app to read a PDF.',
-    install_requires=[
-        # TODO: Add required packages here...
-        'tcex'
-    ],
     license='MIT license',
     name='pdf_reader',
     packages=find_packages(),
