@@ -19,7 +19,7 @@
       "type": "String"
     }], 
     "retry": {},
-    "type": "Client"
+    "type": "Parser"
   },
   "programLanguage": "python",
   "programMain": "pdf_reader",
