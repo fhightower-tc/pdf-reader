@@ -79,10 +79,10 @@ install: clean ## install the package to the active Python's site-packages
 	cd ./pdf_reader && python setup.py install
 
 lib: clean ## download required packages into a lib directory
-	cd ./pdf_reader && python app.py --lib
+	cd ./pdf_reader && tclib
 
 package: clean ## package the app for deployment to TC
-	cd ./pdf_reader && python app.py --package --zip_out ..
+	cd ./pdf_reader && tcpackage --outdir ../
 
 collection: clean ## package the app for deployment to TC as part of a collection of apps
 	cd ./pdf_reader && python app.py --package --collection --zip_out ..
@@ -91,4 +91,4 @@ validate: clean ## validate the app's install.json
 	python ./pdf_reader/app.py --validate --install_json ./pdf_reader/install.json
 
 run: clean ## run the app locally
-	cd ./pdf_reader && python app.py --run
+	cd ./pdf_reader && tcrun
