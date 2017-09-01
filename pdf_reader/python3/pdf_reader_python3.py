@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Playbook app to read a PDF (works in python2.7.x)."""
+"""Playbook app to read a PDF (should work for python3.x)."""
 
-from cStringIO import StringIO
+from io import StringIO
 import os
 import tempfile
 import traceback
@@ -40,7 +40,7 @@ def convert_pdf_to_txt(pdf_content):
     interpreter = PDFPageInterpreter(rsrcmgr, device)
 
     # read the pdf content from the tempfile (creating a file pointer pointing to a simulated pdf file)
-    fp = file(temp_pdf.name, 'rb')
+    fp = open(temp_pdf.name, 'rb')
 
     # various pdf configurations
     password = ""
