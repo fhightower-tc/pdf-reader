@@ -49,7 +49,6 @@ clean-test: ## remove test and coverage artifacts
 clean-tcx: ## remove tcx artifacts
 	rm -fr ./pdf_reader/pdf_reader-package.log
 	rm -fr ./pdf_reader/pdf_reader-libs.log
-	rm -rf ./pdf_reader/lib_*
 	rm -rf ./pdf_reader/setup.cfg
 
 lint: ## check style with flake8
