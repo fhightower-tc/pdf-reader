@@ -15,7 +15,7 @@
   }],
   "playbook": {
     "outputVariables": [{
-      "name": "pdf.reader.text",
+      "name": "pdf_reader.text",
       "type": "String"
     }], 
     "retry": {},
