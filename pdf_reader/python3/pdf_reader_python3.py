@@ -78,7 +78,7 @@ def main():
     text = convert_pdf_to_txt(pdf_content)
 
     # output the text as a variable for downstream apps
-    tcex.playbook.create_output('pdf.reader.text', text)
+    tcex.playbook.create_output('pdf_reader.text', text)
 
     # hasta luego
     tcex.exit()
