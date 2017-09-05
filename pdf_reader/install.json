@@ -1,6 +1,6 @@
 {
   "allowOnDemand": true,
-  "displayName": "pdf Reader",
+  "displayName": "fhightower PDF Reader",
   "languageVersion": "2.7",
   "listDelimiter": "|",
   "note": "Playbook app to read a PDF.",
